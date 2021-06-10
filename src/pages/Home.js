@@ -6,11 +6,9 @@ const Home = () => {
   return (
     <>
       <HeaderHome />
-      <main className='container min-vh-100'>
-        <div className='row my-5'>
-          <div className='col-lg-3'>
-            BLA BLA BLA
-          </div>
+      <main className='container w-auto p-3'>
+        <div>
+          <h1 className='text-center'>BLA BLA BLA</h1>
         </div>
       </main>
       <Footer />
