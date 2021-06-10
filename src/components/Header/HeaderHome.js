@@ -1,7 +1,6 @@
 import React from 'react'
-import '../../styles/HeaderHome.css'
-import { } from 'web3-hooks'
 import SwitchNav from '../Navigation/SwitchNav'
+import '../../styles/Header/HeaderHome.css'
 
 const HeaderHome = () => {
   return (
