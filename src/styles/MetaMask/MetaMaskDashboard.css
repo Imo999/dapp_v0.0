@@ -10,6 +10,11 @@
   font-weight: bold;
   font-size: 25px;
 }
+
+.balance-web3 {
+  color: #0A192E;
+}
+
 .informations {
   font-weight: bold;
   width: 800px;
@@ -83,34 +88,3 @@
 
 
 
-
-
-/*
-    <>
-      <div className='MetaMaskDashboard'>
-        <div className='informations'>
-          <div className='network'>
-            <div className='account'>
-              <p>Account</p>
-              <p className='balance-web3'>{web3State.account}</p>
-            </div>
-            <div className='balance'>
-              <p>Balance</p>
-              <p className='balance-web3'>{web3State.balance} Ethers</p>
-            </div>
-            <p>Network name</p>
-            <p className='balance-web3'> {web3State.networkName}</p>
-          </div>
-          <div className='id'>
-            <p>Network id</p>
-            <p className='balance-web3'>{web3State.chainId}</p>
-          </div>
-        </div>
-      </div>
-    </>
-*/
-
-
-.balance-web3 {
-  color: #0A192E;
-}
