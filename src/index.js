@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Web3Provider } from 'web3-hooks'
-import './styles/index.css';
+import "bootstrap/dist/css/bootstrap.css" // <- importer bootsrtap, depuis node_modules
 import App from './App';
 import reportWebVitals from './test/reportWebVitals';
 
