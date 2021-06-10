@@ -1,14 +1,15 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import HeaderHome from '../components/Header/HeaderHome'
+import MetaMaskInstalled from '../components/MetaMask/MetaMaskInstalled'
 
 const Home = () => {
   return (
     <>
       <HeaderHome />
-      <main className='container w-auto p-3'>
+      <main className='home'>
         <div>
-          <h1 className='text-center'>BLA BLA BLA</h1>
+          <MetaMaskInstalled />
         </div>
       </main>
       <Footer />
