@@ -1,10 +1,12 @@
 import React from 'react'
 import SocialNetwork from './SocialNetwork'
+import '../styles/Footer.css'
+import '../styles/SocialNetwork.css'
 
 const Footer = () => {
   return (
-    <footer className='p-3 text-center bg-dark text-white '>
-      Propulse by Imoo
+    <footer className='footer'>
+      Propulse by ©Imo999
       <SocialNetwork />
     </footer>
   )
