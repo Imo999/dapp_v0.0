@@ -1,0 +1,55 @@
+.MetaMaskInstalled {
+  background: #0A192E;
+}
+
+.cfg {
+  text-align: center;
+  color: white;
+}
+
+.cfg h2 {
+  color: #2E90CF;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.cfg p {
+  color: #FBD657;
+  padding: auto;
+  margin: auto;
+  font-size: 20px;
+}
+
+.mm-installed-success {
+  color: #3CC9A7;
+  width: 150px;
+  line-height: 50px;
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  background-color: #CFE2DF;
+  border-radius: 5px;
+}
+
+.mm-installed-fail {
+  color: #F65756;
+  width: 150px;
+  line-height: 50px;
+  margin: 2px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fcc7c7;
+  border-radius: 5px;
+}
+.mm-login {
+  color: #2E90CF;
+  font-weight: bold;
+  width: 150px;
+  line-height: 30px;
+  margin-top: 20px;
+  padding: 0px;
+  text-align: center;
+  background-color: #FBD657;
+  border-radius: 10px;
+}

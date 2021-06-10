@@ -1,0 +1,10 @@
+.logo-socialNetwork {
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 30px;
+}
+
+.logo-socialNetwork a {
+  color: #fff;
+  text-decoration: none;
+}
