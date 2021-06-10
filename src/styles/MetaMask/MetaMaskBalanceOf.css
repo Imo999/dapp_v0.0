@@ -1,0 +1,82 @@
+.MetaMaskBalanceOf {
+  background-color: #FBD657;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;
+  width: 550px;
+  line-height: 35px;
+  margin-top: -90px;
+  margin-left:605px;
+  padding-top: auto;
+}
+
+.MetaMaskBalanceOf h2 {
+  text-align: center;
+  padding: 2px;
+  font-weight: bold;
+}
+.style-balanceOf {
+  text-align: center;
+  }
+
+.style-getBalance {
+  text-align: center;
+  background-color: #0A192E;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;  
+  width: 450px;
+  line-height: 35px;
+  margin: 8px;
+  padding: auto;
+}
+
+.button-getBalance {
+  color: #FBD657;
+  font-weight: bold;
+  width: 150px;
+  line-height: 30px;
+  margin-top: 20px;
+  padding: 0px;
+  text-align: center;
+  background-color: #9b59b6;
+  border-radius: 10px;
+}
+
+.balance-total {
+  color: #0A192E;
+  padding-bottom: 20px;
+  margin: auto;
+}
+
+.balance-address {
+  color: #9b59b6;
+  padding: auto;
+  margin: auto;
+}
+
+.balance-w3Address {
+  color: #0A192E;
+  padding: auto;  
+  margin: auto;
+}
+
+.balance-total {
+  color: #9b59b6;
+  padding-bottom: 0px;
+  margin: auto;
+}
+
+.balance-w3EthBalance {
+  color: #0A192E;
+  padding: auto;  
+  margin: 0px;
+}
+/* 
+        </div>
+        <p className='balance-address'>Address</p>
+        <p className='balance-w3Address'>{address}</p>
+        <p className='balance-total'>Balance</p>
+        <p className='balance-w3EthBalance'>{ethBalance} ETHER</p>
+      </div>
+*/
