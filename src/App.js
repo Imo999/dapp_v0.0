@@ -1,10 +1,13 @@
+import { Switch, Route, Redirect } from 'react-router-dom'
+import Home from './pages/Home';
 import './styles/App.css';
 
 function App() {
   return (
-
-    <h1>Interface APP</h1>
-
+    <Switch>
+      <Route exact path='/' component={Home} />
+      <Redirect to='/' />
+    </Switch>
   );
 }
 
