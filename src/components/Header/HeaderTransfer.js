@@ -1,5 +1,6 @@
 import React from 'react'
 import SwitchNav from '../Navigation/SwitchNav'
+import '../../styles/Header/HeaderTransfer.css'
 
 const HeaderTransfer = () => {
   return (

@@ -1,0 +1,24 @@
+.header-transfer {
+  text-align: center;
+  background: #0A192E;
+  color: white;
+}
+
+.header-transfer h1 {
+  color: #2E90CF;
+  font-size: 130px;
+  font-weight: bold;
+}
+
+.header-citation {
+  color: #FBD657;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-author {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
