@@ -1,0 +1,30 @@
+.navigation {
+  background-color: #2E90CF;
+  margin-left: 380px;
+  margin-right: 380px;
+  border-radius: 25px;
+}
+
+.nav-home {
+  color: #FBD657;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav-dapp {
+  color: #FBD657;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.nav-junk {
+  color: #FBD657;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 30px;
+}
