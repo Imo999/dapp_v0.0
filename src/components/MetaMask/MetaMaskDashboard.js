@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import { Web3Context } from 'web3-hooks'
 import SwitchNav from '../Navigation/SwitchNav'
-import '../../styles/MetaMaskDashboard.css'
+import '../../styles/MetaMask/MetaMaskDashboard.css'
 
 const MetaMaskDashboard = () => {
   const [web3State] = useContext(Web3Context)
