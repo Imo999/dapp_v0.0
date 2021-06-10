@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import { Web3Context } from 'web3-hooks'
 import '../../styles/MetaMaskInstalled.css'
 

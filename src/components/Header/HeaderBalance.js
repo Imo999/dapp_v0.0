@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../Navigation/Navigation'
 
-const HeaderDapp = () => {
+const HeaderBalance = () => {
   return (
     <header className="header-home">
       <h1>DAPP Interface</h1>
@@ -12,4 +12,4 @@ const HeaderDapp = () => {
   )
 }
 
-export default HeaderDapp
+export default HeaderBalance

@@ -1,15 +1,11 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import MetaMaskInstalled from '../components/MetaMask/MetaMaskInstalled'
-import Connexion from '../components/Navigation/Connexion'
+import MetaMaskDashboard from '../components/MetaMask/MetaMaskDashboard'
 
 const Junk = () => {
 
   return (
     <div>
-      <Connexion />
-      <MetaMaskInstalled />
-      <Footer />
+      <MetaMaskDashboard />
     </div>
   )
 }
