@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../components/Footer'
 import HeaderBalance from '../components/Header/HeaderBalance'
 import MetaMaskDashboard from '../components/MetaMask/MetaMaskDashboard'
-import '../styles/Balance.css'
+import '../styles/Pages/Balance.css'
 
 const Balance = () => {
 

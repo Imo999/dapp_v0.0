@@ -1,7 +1,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Balance from './pages/Balance';
-import Home from './pages/Home';
-import Junk from './pages/Junk';
+import Balance from './Pages/Balance';
+import Home from './Pages/Home';
+import Junk from './Pages/Junk';
 
 function App() {
   return (
