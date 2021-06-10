@@ -1,3 +1,116 @@
 .MetaMaskDashboard {
   background: #0A192E;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+.MetaMaskDashboard h2 {
+  color: #9b59b6;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+.informations {
+  font-weight: bold;
+  width: 800px;
+  line-height: 100px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.balance-web3 {
+  color: #0A192E;
+  padding-bottom: 13px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.account {
+  color: #9b59b6;
+  background-color: #FBD657;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;
+  width: 1000px;
+  line-height: 35px;
+  margin-top: 0px;
+  margin-left:380px;
+  font-size: 25px;
+}
+
+.balance {
+  color: #9b59b6;
+  background-color: #FBD657;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;
+  width: 1000px;
+  line-height: 35px;
+  margin-top: 20px;
+  margin-left:380px;
+  padding-top: auto;
+}
+
+.network-name {
+  color: #9b59b6;
+  background-color: #FBD657;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;
+  width: 200px;
+  line-height: 35px;
+  margin-top: 20px;
+  margin-left:1180px;
+  padding-top: auto;
+}
+
+.network-id {
+  color: #9b59b6;
+  background-color: #FBD657;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;
+  width: 200px;
+  line-height: 35px;
+  margin-top: -95px;
+  margin-left:380px;
+}
+
+
+
+
+
+/*
+    <>
+      <div className='MetaMaskDashboard'>
+        <div className='informations'>
+          <div className='network'>
+            <div className='account'>
+              <p>Account</p>
+              <p className='balance-web3'>{web3State.account}</p>
+            </div>
+            <div className='balance'>
+              <p>Balance</p>
+              <p className='balance-web3'>{web3State.balance} Ethers</p>
+            </div>
+            <p>Network name</p>
+            <p className='balance-web3'> {web3State.networkName}</p>
+          </div>
+          <div className='id'>
+            <p>Network id</p>
+            <p className='balance-web3'>{web3State.chainId}</p>
+          </div>
+        </div>
+      </div>
+    </>
+*/
+
+
+.balance-web3 {
+  color: #0A192E;
 }
