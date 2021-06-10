@@ -1,13 +1,13 @@
 import React from 'react'
 import Navigation from '../components/Navigation'
 
-const Home = () => {
+const Dapp = () => {
   return (
-    <div className='page-home'>
+    <div className='page-dapp'>
       <Navigation />
-      <h1>Page Home</h1>
+      <h1>Page DAPP</h1>
     </div>
   )
 }
 
-export default Home
+export default Dapp

@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { Web3Provider } from 'web3-hooks'
 import './styles/index.css';
 import App from './App';
 import reportWebVitals from './test/reportWebVitals';
 
 ReactDOM.render(
   <Router>
-    <App />
+    <Web3Provider>
+      <App />
+    </Web3Provider>
   </Router>,
   document.getElementById('root')
 );
