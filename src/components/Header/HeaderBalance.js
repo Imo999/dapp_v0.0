@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from '../Navigation/Navigation'
+import SwitchNav from '../Navigation/SwitchNav'
 import '../../styles/Header/HeaderBalance.css'
 
 const HeaderBalance = () => {
@@ -8,7 +8,7 @@ const HeaderBalance = () => {
       <h1>Balance</h1>
       <p className='header-citation'>“Accroche ton chariot à une étoile.”</p>
       <p className='header-author'>-- Ralph Waldo Emerson --</p>
-      <Navigation />
+      <SwitchNav />
     </header>
   )
 }
