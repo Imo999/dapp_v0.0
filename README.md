@@ -21,22 +21,15 @@
 
 ## Install :
 
-Clone Repo Git : https://github.com/Imo999/ico-contract-v0.0
+Clone Repo Git : https://github.com/Imo999/dapp_v0.0
 
 ```zsh
-% git clone git@github.com:Imo999/ico-contract-v0.0.git
-% cd ico-contract-v0.0
+% git clone git@github.com:Imo999/dapp_v0.0.git
+% cd dapp_v0.0
 ```
 
 ## Install dependencies :
 
 ```zsh
 % yarn install
-```
-
-## Test Smart contract :
-
-```zsh
-% npx hardhat compile
-% npx hardhat test
 ```
