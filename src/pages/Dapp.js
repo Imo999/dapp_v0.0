@@ -1,12 +1,19 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
-
+import Footer from '../components/Footer'
+import HeaderDapp from '../components/Header/HeaderDapp'
 const Dapp = () => {
   return (
-    <div className='page-dapp'>
-      <Navigation />
-      <h1>Page DAPP</h1>
-    </div>
+    <>
+      <HeaderDapp />
+      <main className='container min-vh-100'>
+        <div className='row my-5'>
+          <div className='col-lg-3'>
+            BLA BLA BLA
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </>
   )
 }
 

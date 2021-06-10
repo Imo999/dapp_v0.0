@@ -1,12 +1,20 @@
 import React from 'react'
-import Navigation from '../components/Navigation'
+import Footer from '../components/Footer'
+import HeaderHome from '../components/Header/HeaderHome'
 
 const Home = () => {
   return (
-    <div className='page-home'>
-      <Navigation />
-      <h1>Page Home</h1>
-    </div>
+    <>
+      <HeaderHome />
+      <main className='container min-vh-100'>
+        <div className='row my-5'>
+          <div className='col-lg-3'>
+            BLA BLA BLA
+          </div>
+        </div>
+      </main>
+      <Footer />
+    </>
   )
 }
 
