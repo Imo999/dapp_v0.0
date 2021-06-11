@@ -1,0 +1,147 @@
+/* NavBar Coming Soon */
+
+.nav-comingSoon {
+  text-align: center;
+  text-decoration: none;
+  color: #9B69FF;
+  font-size: 20px;
+}
+/*Main Styles*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-comingSoon {
+    display: flex;
+    height: 100%;
+    font-size: 1rem;
+    line-height: 1.65;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #DEAE1F 50%, #0A192E 50%);
+    color: #5a5656;
+}
+
+
+/*Main left Styles*/
+
+
+.left-comingSoon {
+    height: 100vh;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.left-comingSoon h1 {
+    display: inline-block;
+    font-size: 80px;
+    position: relative;
+    margin-bottom: 1rem;
+    color: #9B69FF;
+    text-align: center;
+}
+
+.left-comingSoon h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    background-color: #5a5656;
+    width: 140px;
+}
+
+.left-comingSoon h3 {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 10px;
+    padding-bottom: auto;
+    color: #5a5656;
+}
+
+.img-comingSoon {
+    width: 60%;
+    padding-top: 40px;
+}
+
+/*Main right Styles*/
+
+.right-comingSoon {
+    height: 100vh;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
+.subscribe {
+    background-color: #DEAE1F;
+    width: 75%;
+    height: 17%;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 10px 5px 5px #9b59b6;    
+}
+
+.subscribe h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    color: #9b59b6;
+    text-align: center;
+}
+
+.form-comingSoon {
+    position: relative;
+}
+
+.form-comingSoon input {
+    font-family: inherit;
+    outline: none;
+    font-size: 90%;
+    padding: 10px 1rem;
+    border: none;
+    display: block;
+    border-radius: 2px;
+}
+
+.form-comingSoon .email {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 7px;
+}
+
+.form-comingSoon .submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #9b59b6;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color .22s ease;
+    border-radius: 7px;
+}
+
+.form-comingSoon .submit:hover {
+    background-color: #8e44ad;
+}
+
+
+.footer-comingSoon {
+    color: #fff;
+    padding-top: 150px;
+}
+
