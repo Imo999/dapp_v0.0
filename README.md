@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "bootstrap": "^5.0.0-beta3",
     "ethers": "^5.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -32,4 +33,10 @@ Clone Repo Git : https://github.com/Imo999/dapp_v0.0
 
 ```zsh
 % yarn install
+```
+
+## Run DEV Mode :
+
+```zsh
+% yarn start
 ```
