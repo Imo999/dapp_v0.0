@@ -17,3 +17,7 @@ function App() {
 }
 
 export default App;
+
+// TODO : 
+// Responsive
+// Use params 
