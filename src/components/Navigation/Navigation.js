@@ -9,8 +9,8 @@ const Navigation = () => {
         <NavLink to='/' className='nav-home' activeClassName='nav-active'>
           Connexion
       </NavLink>
-        <NavLink to='/Balance' className='nav-dapp' activeClassName='nav-active'>
-          Balance
+        <NavLink to='/Account' className='nav-dapp' activeClassName='nav-active'>
+          Account
       </NavLink>
         <NavLink to='/Transfer' className='nav-junk' activeClassName='nav-active'>
           Transfert
