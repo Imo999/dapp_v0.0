@@ -1,0 +1,87 @@
+.MetaMaskTransfer {
+  background-color: #FBD657;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;
+  width: 550px;
+  line-height: 35px;
+  margin-top: 20px;
+  margin-left:670px;
+  padding: 20px;
+}
+
+.MetaMaskTransfer h2 {
+  color: #9b59b6;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.MetaMaskTransfer p {
+  color: #0A192E;
+  text-align: center;
+  font-weight: bold;
+}
+
+.style-MetaMaskTransfer {
+  text-align: center;
+}
+
+.style-chooseAddress {
+  text-align: center;
+  background-color: #0A192E;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;  
+  width: 450px;
+  line-height: 35px;
+  margin: 8px;
+  padding: auto;
+}
+
+.btn-chooseAddress {
+  color: #FBD657;
+  font-weight: bold;
+  width: 150px;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: auto;
+  text-align: center;
+  background-color: #9b59b6;
+  border-radius: 10px;
+}
+.address-eth2send{
+ color: #3CC9A7;
+  width: 500px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+  background-color: #CFE2DF;
+  border-radius: 10px;
+}
+
+.style-eth2send {
+  text-align: center;
+  background-color: #0A192E;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #9b59b6;  
+  width: 450px;
+  line-height: 35px;
+  margin: 8px;
+  padding: auto;
+}
+
+.btn-eth2send {
+  color: #FBD657;
+  font-weight: bold;
+  width: 150px;
+  line-height: 30px;
+  margin-top: 15px;
+  padding: auto;
+  text-align: center;
+  background-color: #9b59b6;
+  border-radius: 10px;
+}
