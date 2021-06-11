@@ -1,5 +1,6 @@
-# D-dapp_v0.0
+# Dapp_v0.0
 
+Project deployed on Netlify : Coming Soon !
 ## Features :
 
 - Project set up using :
