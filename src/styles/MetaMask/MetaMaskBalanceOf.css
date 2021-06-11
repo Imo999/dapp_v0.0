@@ -72,11 +72,3 @@
   padding: auto;  
   margin: 0px;
 }
-/* 
-        </div>
-        <p className='balance-address'>Address</p>
-        <p className='balance-w3Address'>{address}</p>
-        <p className='balance-total'>Balance</p>
-        <p className='balance-w3EthBalance'>{ethBalance} ETHER</p>
-      </div>
-*/
