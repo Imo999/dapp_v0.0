@@ -16,7 +16,7 @@ const Navigation = () => {
           Transfert
       </NavLink>
         <NavLink to='/junk' className='nav-junk' activeClassName='nav-active'>
-          Junk
+          Contracts
       </NavLink>
       </div>
     </div>
