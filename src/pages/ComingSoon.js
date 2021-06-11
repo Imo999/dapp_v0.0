@@ -1,9 +1,9 @@
 import React from 'react'
-import '../styles/Pages/ComingSoon.css'
+import { NavLink } from 'react-router-dom'
 import logoComingSoon from '../assets/img/under_construction.svg'
 import SocialNetwork from '../components/SocialNetwork'
-import { NavLink } from 'react-router-dom'
 import Donation from '../components/Donation'
+import '../styles/Pages/ComingSoon.css'
 
 const ComingSoon = () => {
 

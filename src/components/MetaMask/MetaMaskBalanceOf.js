@@ -1,6 +1,6 @@
 import React from 'react'
-import { ethers } from 'ethers'
 import { useContext, useState } from 'react'
+import { ethers } from 'ethers'
 import { Web3Context } from 'web3-hooks'
 import '../../styles/MetaMask/MetaMaskBalanceOf.css'
 
@@ -17,6 +17,7 @@ const MetaMaskBalanceOf = () => {
       console.log(e)
     }
   }
+
   return (
     <div className='MetaMaskBalanceOf'>
       <div className='style-balanceOf'>

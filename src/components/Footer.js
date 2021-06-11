@@ -1,8 +1,8 @@
 import React from 'react'
 import SocialNetwork from './SocialNetwork'
+import Donation from './Donation'
 import '../styles/Footer.css'
 import '../styles/SocialNetwork.css'
-import Donation from './Donation'
 
 const Footer = () => {
 

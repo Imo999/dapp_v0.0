@@ -1,8 +1,8 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
-import Account from './Pages/Account';
-import ComingSoon from './Pages/ComingSoon';
 import Home from './Pages/Home';
+import Account from './Pages/Account';
 import Transfert from './Pages/Transfert';
+import ComingSoon from './Pages/ComingSoon';
 
 function App() {
   return (

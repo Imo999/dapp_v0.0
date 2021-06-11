@@ -7,6 +7,7 @@
   font-size: 20px;
   font-weight: bold;
 }
+
 /*Main Styles*/
 
 * {
@@ -25,9 +26,7 @@
     color: #5a5656;
 }
 
-
 /*Main left Styles*/
-
 
 .left-comingSoon {
     height: 100vh;
@@ -37,7 +36,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 .left-comingSoon h1 {
     display: inline-block;
@@ -139,7 +137,6 @@
 .form-comingSoon .submit:hover {
     background-color: #8e44ad;
 }
-
 
 .footer-comingSoon {
     color: #fff;

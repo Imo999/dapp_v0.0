@@ -1,6 +1,6 @@
 import React from 'react'
-import { ethers } from 'ethers'
 import { useContext, useState } from 'react'
+import { ethers } from 'ethers'
 import { Web3Context } from 'web3-hooks'
 import '../../styles/MetaMask/MetaMaskTransfer.css'
 
