@@ -15,7 +15,7 @@ const Navigation = () => {
         <NavLink to='/Transfer' className='nav-junk' activeClassName='nav-active'>
           Transfert
       </NavLink>
-        <NavLink to='/junk' className='nav-junk' activeClassName='nav-active'>
+        <NavLink to='/ComingSoon' className='nav-junk' activeClassName='nav-active'>
           Contracts
       </NavLink>
       </div>

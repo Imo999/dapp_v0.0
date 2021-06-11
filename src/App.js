@@ -1,7 +1,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
 import Balance from './Pages/Balance';
+import ComingSoon from './Pages/ComingSoon';
 import Home from './Pages/Home';
-import Junk from './Pages/Junk';
 import Transfert from './Pages/Transfert';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Route exact path='/' component={Home} />
       <Route exact path='/Balance' component={Balance} />
       <Route exact path='/Transfer' component={Transfert} />
-      <Route exact path='/junk' component={Junk} />
+      <Route exact path='/ComingSoon' component={ComingSoon} />
       <Redirect to='/' />
     </Switch>
   );
