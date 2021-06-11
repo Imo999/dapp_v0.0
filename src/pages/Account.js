@@ -1,15 +1,15 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import HeaderBalance from '../components/Header/HeaderBalance'
+import HeaderBalance from '../components/Header/HeaderAccount'
 import MetaMaskDashboard from '../components/MetaMask/MetaMaskDashboard'
-import '../styles/Pages/Balance.css'
+import '../styles/Pages/Account.css'
 
-const Balance = () => {
+const Account = () => {
 
   return (
     <>
       <HeaderBalance />
-      <main className='main-balance'>
+      <main className='main-Account'>
         <MetaMaskDashboard />
       </main>
       <Footer />
@@ -17,4 +17,4 @@ const Balance = () => {
   )
 }
 
-export default Balance
+export default Account

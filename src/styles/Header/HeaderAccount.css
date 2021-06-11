@@ -1,10 +1,10 @@
-.header-balance {
+.header-Account {
   text-align: center;
   background: #0A192E;
   color: white;
 }
 
-.header-balance h1 {
+.header-Account h1 {
   color: #2E90CF;
   font-size: 130px;
   font-weight: bold;

@@ -1,11 +1,11 @@
 import React from 'react'
 import SwitchNav from '../Navigation/SwitchNav'
-import '../../styles/Header/HeaderBalance.css'
+import '../../styles/Header/HeaderAccount.css'
 
-const HeaderBalance = () => {
+const HeaderAccount = () => {
   return (
-    <header className="header-balance">
-      <h1>Balance</h1>
+    <header className="header-Account">
+      <h1>Account</h1>
       <p className='header-citation'>“Accroche ton chariot à une étoile.”</p>
       <p className='header-author'>-- Ralph Waldo Emerson --</p>
       <SwitchNav />
@@ -13,4 +13,4 @@ const HeaderBalance = () => {
   )
 }
 
-export default HeaderBalance
+export default HeaderAccount
